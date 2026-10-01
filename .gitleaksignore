@@ -1,0 +1,6 @@
+# Reviewed false alarms. Each line is file:rule:start-line.
+# A new secret on a different line still fails the scan.
+src/MToken.sol:generic-api-key:28
+src/Protocol.sol:evm-32-byte-hex:39
+src/Protocol.sol:evm-32-byte-hex:42
+src/Protocol.sol:evm-32-byte-hex:52
